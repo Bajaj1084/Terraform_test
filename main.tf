@@ -6,9 +6,8 @@ terraform {
     }
   }
 
-
   backend "remote" {
-    organization = "Demo_Using_Terraform"
+    organization = "my-organization-name"
 
     workspaces {
       name = "gh-actions-demo"
